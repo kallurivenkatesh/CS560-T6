@@ -1,0 +1,8 @@
+applications:
+- disk_quota: 1024M
+  host: nlp-service
+  name: nlp-service
+  path: webStarterApp.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
